@@ -9,7 +9,7 @@
 <body>
 <div class="login-container">
 <h1>Mapping Shop Login</h1>
-<form action="#">
+<form action="https://login-mapping-shop-ip.vercel.app/puki.html">
 <input type="password" id="password" placeholder="Password">
 <button type="submit" onclick="checkPassword()">Login</button>
 
@@ -22,7 +22,7 @@
 function checkPassword() {
 var password = document.getElementById("password").value;
 if (password === 'ambatukam') {
-window.location.replace("../puki.html");
+window.location.replace("https://login-mapping-shop-ip.vercel.app/puki.html");
 } else {
 alert("Password salah. Silakan coba lagi.");
 }
